@@ -76,40 +76,25 @@ main {
 }
 
 .bottomNav img {
+    margin: 0 10px;
     height: 28px;
 }
 
+.bottomNav li:hover{
+    background-color: #b76610;
+}
+
 .bottomNav li {
-    padding: 10px 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.3s;
+    background-color: #E8DCCF;
 }
 
 .bottomNav li.active {
     background-color: white !important;
-}
-
-.bottomNav li:nth-child(1) {
-    background-color: #E8DCCF;
-}
-
-.bottomNav li:nth-child(2) {
-    background-color: #E8DCCF;
-}
-
-.bottomNav li:nth-child(3) {
-    background-color: #E8DCCF;
-}
-
-.bottomNav li:nth-child(4) {
-    background-color: #E8DCCF;
-}
-
-.bottomNav li:nth-child(5) {
-    background-color: #E8DCCF;
 }
 
 .filterSidebar {
@@ -141,7 +126,6 @@ main {
     .bottomNav li {
         width: auto;
         height: 100%;
-        padding: 0 10px;
     }
 
     .bottomNav {
